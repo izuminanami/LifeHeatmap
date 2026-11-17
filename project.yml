@@ -10,7 +10,7 @@ settings:
     DEVELOPMENT_TEAM: GBVLR8PRV8
     CODE_SIGN_STYLE: Automatic
     MARKETING_VERSION: "1.0"
-    CURRENT_PROJECT_VERSION: "1"
+    CURRENT_PROJECT_VERSION: "2"
     TARGETED_DEVICE_FAMILY: "1"
 targets:
   LifeHeatmap:
@@ -27,6 +27,8 @@ targets:
         UISupportedInterfaceOrientations: [UIInterfaceOrientationPortrait]
         NSHealthShareUsageDescription: 歩数・睡眠時間をヒートマップに表示するために、ヘルスケアのデータを読み取ります。
         NSPhotoLibraryUsageDescription: 撮った写真の枚数を日ごとに数えるために、写真ライブラリを読み取ります。写真そのものは表示・送信しません。
+        NSHealthUpdateUsageDescription: このアプリはヘルスケアにデータを書き込みません。歩数と睡眠時間の読み取りのみを行います。
+        UIRequiresFullScreen: true
         CFBundleURLTypes:
           - CFBundleURLName: com.imuzi37.LifeHeatmap
             CFBundleURLSchemes: [lifeheatmap]
