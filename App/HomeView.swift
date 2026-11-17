@@ -2,7 +2,12 @@ import SwiftUI
 
 struct HomeView: View {
     @Environment(AppModel.self) private var model
+    #if DEBUG
+    /// スクリーンショット用。起動引数 -showTheme で色の画面を開いた状態にする。
+    @State private var showTheme = ProcessInfo.processInfo.arguments.contains("-showTheme")
+    #else
     @State private var showTheme = false
+    #endif
 
     var body: some View {
         NavigationStack {
