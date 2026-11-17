@@ -21,6 +21,8 @@ targets:
       path: App/Info.plist
       properties:
         CFBundleDisplayName: 生活ヒートマップ
+        CFBundleShortVersionString: $(MARKETING_VERSION)
+        CFBundleVersion: $(CURRENT_PROJECT_VERSION)
         CFBundleDevelopmentRegion: ja
         UILaunchScreen: {}
         ITSAppUsesNonExemptEncryption: false
@@ -53,6 +55,8 @@ targets:
       path: Widget/Info.plist
       properties:
         CFBundleDisplayName: 生活ヒートマップ
+        CFBundleShortVersionString: $(MARKETING_VERSION)
+        CFBundleVersion: $(CURRENT_PROJECT_VERSION)
         NSHealthShareUsageDescription: 歩数・睡眠時間をヒートマップに表示するために、ヘルスケアのデータを読み取ります。
         NSPhotoLibraryUsageDescription: 撮った写真の枚数を日ごとに数えるために、写真ライブラリを読み取ります。
         NSExtension:
