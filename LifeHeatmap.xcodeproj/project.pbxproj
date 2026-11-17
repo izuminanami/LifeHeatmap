@@ -1,0 +1,723 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		07A43CFB61630EF819EA99E9 /* HeatmapGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 454EE01F297BDB8DAB1F24E8 /* HeatmapGrid.swift */; };
+		18F4B62721AF6D5E061FC61F /* SharedStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8851B724FEAADEDF87C3ADC3 /* SharedStore.swift */; };
+		245E21F9FC826116914DAF6D /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA4C514F1AEC3AE9175E8C6 /* HomeView.swift */; };
+		297D6514167D8B42942FD84C /* HeatmapModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 779AB014A943B773B4077B68 /* HeatmapModelTests.swift */; };
+		29F7DFD68699B612510D0056 /* WidgetRenderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF33B3DEE015AFB5529AEF58 /* WidgetRenderTests.swift */; };
+		3D3F45FB2E234339833AAAD5 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90337038C4A86BBB71D12DC9 /* OnboardingView.swift */; };
+		42494321873B1E9C1A1AE8B6 /* DemoData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C088AECB6BD7226C5C6C005 /* DemoData.swift */; };
+		447F057FC3471819446B0A3C /* MetricDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C77CB005DD9037CC1CF527 /* MetricDataSource.swift */; };
+		46DB06DF479C4D87306F23C0 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 598308BC4758A5D349D9C5DE /* PrivacyInfo.xcprivacy */; };
+		4E0CB4958D32205C08A4BDC4 /* HeatmapModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47A0D539F16C7FBDED30A364 /* HeatmapModel.swift */; };
+		514BD31710E5B2CDEC4507D5 /* DemoData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C088AECB6BD7226C5C6C005 /* DemoData.swift */; };
+		5CDDF7D86A75C5F656AB189D /* HeatmapWidget.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 9DAECD91E4380C8CA0130C16 /* HeatmapWidget.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		71D4DC6AA3B53F6B98E922E7 /* ThemeColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A67922DDA865D6F31C48CDB7 /* ThemeColor.swift */; };
+		75046B726E3CDCD0A2E0A582 /* MetricDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C77CB005DD9037CC1CF527 /* MetricDataSource.swift */; };
+		7B737D5003185B5644B24425 /* HeatmapModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47A0D539F16C7FBDED30A364 /* HeatmapModel.swift */; };
+		7E05C6260C92FEDC7481684B /* ThemeSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 084926CE5C37E3F646CF9B23 /* ThemeSettingsView.swift */; };
+		977EFCD6960F64FCE1B46650 /* Metric.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D39F69B54151A9B853BDF6F /* Metric.swift */; };
+		AA391FD9CFF6CB711C088097 /* ThemeColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A67922DDA865D6F31C48CDB7 /* ThemeColor.swift */; };
+		AE275F3894E6661578894C95 /* HeatmapWidgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A4854732D5EDF033CAF2B9 /* HeatmapWidgetView.swift */; };
+		C002EA65E522E1A9624A7E1D /* MetricDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C77CB005DD9037CC1CF527 /* MetricDataSource.swift */; };
+		C6AEB28A6E7F06F8EEE7FD6E /* LifeHeatmapApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7610F941B89CF5AA555A0561 /* LifeHeatmapApp.swift */; };
+		D0A96073E964F938F71AEC8D /* Metric.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D39F69B54151A9B853BDF6F /* Metric.swift */; };
+		D2B459E3BDC35D89DA8413CF /* HeatmapModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47A0D539F16C7FBDED30A364 /* HeatmapModel.swift */; };
+		DE98932F2DB8D803647F5ABD /* ThemeColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A67922DDA865D6F31C48CDB7 /* ThemeColor.swift */; };
+		DFC430261BB948FC3CD0568E /* DemoData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C088AECB6BD7226C5C6C005 /* DemoData.swift */; };
+		E6FADB36A6F1B1D5F227A24E /* HeatmapWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB469F7BE341E6929D783C1 /* HeatmapWidget.swift */; };
+		E9F069A96A4DB56CD034BA1B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4466BCDD1DE6F10F4F4DC81D /* Assets.xcassets */; };
+		EF117C1CFE7989A64873E0F3 /* HeatmapGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 454EE01F297BDB8DAB1F24E8 /* HeatmapGrid.swift */; };
+		F10448084E9E49789AB70936 /* HeatmapWidgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A4854732D5EDF033CAF2B9 /* HeatmapWidgetView.swift */; };
+		F2AB2F8913D92B00F34AFE85 /* HeatmapGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 454EE01F297BDB8DAB1F24E8 /* HeatmapGrid.swift */; };
+		F398E1293F0195711F4C6232 /* SharedStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8851B724FEAADEDF87C3ADC3 /* SharedStore.swift */; };
+		F57515113294A6B2EEAB1018 /* Metric.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D39F69B54151A9B853BDF6F /* Metric.swift */; };
+		F57B62EEC6077AF407C742FB /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = F86E2EE575D5F46B2BE2849C /* PrivacyInfo.xcprivacy */; };
+		F8A58B9B1C11F3A8AB1C0DB2 /* SharedStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8851B724FEAADEDF87C3ADC3 /* SharedStore.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		19FE18EBBBAD9B1D4FD62E84 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B662A3C21D2276B530E44004 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 364B603F48560B216075A080;
+			remoteInfo = LifeHeatmap;
+		};
+		50DB473D3BAA9B2B03F83FAB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B662A3C21D2276B530E44004 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 321E9EB70FCBB9514117DF2E;
+			remoteInfo = HeatmapWidget;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		52E646F4C3DF03635ECA1101 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				5CDDF7D86A75C5F656AB189D /* HeatmapWidget.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		00C77CB005DD9037CC1CF527 /* MetricDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetricDataSource.swift; sourceTree = "<group>"; };
+		01A4854732D5EDF033CAF2B9 /* HeatmapWidgetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeatmapWidgetView.swift; sourceTree = "<group>"; };
+		084926CE5C37E3F646CF9B23 /* ThemeSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeSettingsView.swift; sourceTree = "<group>"; };
+		14BE2F1A4B901D7D1A4D071F /* LifeHeatmap.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = LifeHeatmap.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		40B945027495A27F0996BAA9 /* WidgetRenderTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = WidgetRenderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4466BCDD1DE6F10F4F4DC81D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		454EE01F297BDB8DAB1F24E8 /* HeatmapGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeatmapGrid.swift; sourceTree = "<group>"; };
+		47A0D539F16C7FBDED30A364 /* HeatmapModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeatmapModel.swift; sourceTree = "<group>"; };
+		598308BC4758A5D349D9C5DE /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		5D39F69B54151A9B853BDF6F /* Metric.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Metric.swift; sourceTree = "<group>"; };
+		5F0A22712586559FEFE4147E /* LifeHeatmapTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = LifeHeatmapTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		73030D419CE0441F7BEC1BB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		7610F941B89CF5AA555A0561 /* LifeHeatmapApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifeHeatmapApp.swift; sourceTree = "<group>"; };
+		779AB014A943B773B4077B68 /* HeatmapModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeatmapModelTests.swift; sourceTree = "<group>"; };
+		7C088AECB6BD7226C5C6C005 /* DemoData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoData.swift; sourceTree = "<group>"; };
+		879F4CA24E62F6DFE47512AB /* LifeHeatmap.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = LifeHeatmap.entitlements; sourceTree = "<group>"; };
+		8851B724FEAADEDF87C3ADC3 /* SharedStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedStore.swift; sourceTree = "<group>"; };
+		90337038C4A86BBB71D12DC9 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		9DAECD91E4380C8CA0130C16 /* HeatmapWidget.appex */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = "wrapper.app-extension"; path = HeatmapWidget.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		A67922DDA865D6F31C48CDB7 /* ThemeColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeColor.swift; sourceTree = "<group>"; };
+		ABA4C514F1AEC3AE9175E8C6 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		BF67DD1B86F7E5567FBB1349 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		C8274674433AC770407F29AE /* HeatmapWidget.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HeatmapWidget.entitlements; sourceTree = "<group>"; };
+		DF33B3DEE015AFB5529AEF58 /* WidgetRenderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetRenderTests.swift; sourceTree = "<group>"; };
+		EDB469F7BE341E6929D783C1 /* HeatmapWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeatmapWidget.swift; sourceTree = "<group>"; };
+		F86E2EE575D5F46B2BE2849C /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		1E9E6DB51F503A8BE394E971 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				7C088AECB6BD7226C5C6C005 /* DemoData.swift */,
+				454EE01F297BDB8DAB1F24E8 /* HeatmapGrid.swift */,
+				47A0D539F16C7FBDED30A364 /* HeatmapModel.swift */,
+				5D39F69B54151A9B853BDF6F /* Metric.swift */,
+				00C77CB005DD9037CC1CF527 /* MetricDataSource.swift */,
+				8851B724FEAADEDF87C3ADC3 /* SharedStore.swift */,
+				A67922DDA865D6F31C48CDB7 /* ThemeColor.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		5B68D2CD06D31984054E467D = {
+			isa = PBXGroup;
+			children = (
+				88DCCACD25881A9747991B7C /* App */,
+				826E660BDA1DA951DE287A29 /* RenderTests */,
+				1E9E6DB51F503A8BE394E971 /* Shared */,
+				DF58FF1878924E537786EE05 /* Tests */,
+				EBA03063A3B61CF3F5C68B9F /* Widget */,
+				CE0959F5CE7B3A7E20206D5A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		826E660BDA1DA951DE287A29 /* RenderTests */ = {
+			isa = PBXGroup;
+			children = (
+				DF33B3DEE015AFB5529AEF58 /* WidgetRenderTests.swift */,
+			);
+			path = RenderTests;
+			sourceTree = "<group>";
+		};
+		88DCCACD25881A9747991B7C /* App */ = {
+			isa = PBXGroup;
+			children = (
+				4466BCDD1DE6F10F4F4DC81D /* Assets.xcassets */,
+				ABA4C514F1AEC3AE9175E8C6 /* HomeView.swift */,
+				BF67DD1B86F7E5567FBB1349 /* Info.plist */,
+				879F4CA24E62F6DFE47512AB /* LifeHeatmap.entitlements */,
+				7610F941B89CF5AA555A0561 /* LifeHeatmapApp.swift */,
+				90337038C4A86BBB71D12DC9 /* OnboardingView.swift */,
+				F86E2EE575D5F46B2BE2849C /* PrivacyInfo.xcprivacy */,
+				084926CE5C37E3F646CF9B23 /* ThemeSettingsView.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		CE0959F5CE7B3A7E20206D5A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9DAECD91E4380C8CA0130C16 /* HeatmapWidget.appex */,
+				14BE2F1A4B901D7D1A4D071F /* LifeHeatmap.app */,
+				5F0A22712586559FEFE4147E /* LifeHeatmapTests.xctest */,
+				40B945027495A27F0996BAA9 /* WidgetRenderTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DF58FF1878924E537786EE05 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				779AB014A943B773B4077B68 /* HeatmapModelTests.swift */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		EBA03063A3B61CF3F5C68B9F /* Widget */ = {
+			isa = PBXGroup;
+			children = (
+				C8274674433AC770407F29AE /* HeatmapWidget.entitlements */,
+				EDB469F7BE341E6929D783C1 /* HeatmapWidget.swift */,
+				01A4854732D5EDF033CAF2B9 /* HeatmapWidgetView.swift */,
+				73030D419CE0441F7BEC1BB2 /* Info.plist */,
+				598308BC4758A5D349D9C5DE /* PrivacyInfo.xcprivacy */,
+			);
+			path = Widget;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		321E9EB70FCBB9514117DF2E /* HeatmapWidget */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F072E15CA0D65E370ABE9C97 /* Build configuration list for PBXNativeTarget "HeatmapWidget" */;
+			buildPhases = (
+				F19B451FFBEC16CA5AACF763 /* Sources */,
+				A90151392F8AB196F809B4C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HeatmapWidget;
+			packageProductDependencies = (
+			);
+			productName = HeatmapWidget;
+			productReference = 9DAECD91E4380C8CA0130C16 /* HeatmapWidget.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		364B603F48560B216075A080 /* LifeHeatmap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6769D7575A37106B7AE16376 /* Build configuration list for PBXNativeTarget "LifeHeatmap" */;
+			buildPhases = (
+				918BF5DEB81F3EA9FE49EC58 /* Sources */,
+				131EE6E06929611143B561BC /* Resources */,
+				52E646F4C3DF03635ECA1101 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D472070536F2F84F7CB0902B /* PBXTargetDependency */,
+			);
+			name = LifeHeatmap;
+			packageProductDependencies = (
+			);
+			productName = LifeHeatmap;
+			productReference = 14BE2F1A4B901D7D1A4D071F /* LifeHeatmap.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4CDA4D8956BEE8DF87519365 /* LifeHeatmapTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E89700719EF998FE1C28C54D /* Build configuration list for PBXNativeTarget "LifeHeatmapTests" */;
+			buildPhases = (
+				2DBAD446C4DBEE4EF5F3F469 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E22645B8A96FC289A37711D1 /* PBXTargetDependency */,
+			);
+			name = LifeHeatmapTests;
+			packageProductDependencies = (
+			);
+			productName = LifeHeatmapTests;
+			productReference = 5F0A22712586559FEFE4147E /* LifeHeatmapTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		795BE15854A7E2A732DBC613 /* WidgetRenderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 949E12CA83E4CEF705A8454E /* Build configuration list for PBXNativeTarget "WidgetRenderTests" */;
+			buildPhases = (
+				CF16856F5C1235CDDEDB63EE /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WidgetRenderTests;
+			packageProductDependencies = (
+			);
+			productName = WidgetRenderTests;
+			productReference = 40B945027495A27F0996BAA9 /* WidgetRenderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B662A3C21D2276B530E44004 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					321E9EB70FCBB9514117DF2E = {
+						DevelopmentTeam = GBVLR8PRV8;
+						ProvisioningStyle = Automatic;
+					};
+					364B603F48560B216075A080 = {
+						DevelopmentTeam = GBVLR8PRV8;
+						ProvisioningStyle = Automatic;
+					};
+					4CDA4D8956BEE8DF87519365 = {
+						DevelopmentTeam = GBVLR8PRV8;
+						ProvisioningStyle = Automatic;
+					};
+					795BE15854A7E2A732DBC613 = {
+						DevelopmentTeam = GBVLR8PRV8;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = DF19FB55F2AFC93874E1D8AD /* Build configuration list for PBXProject "LifeHeatmap" */;
+			developmentRegion = ja;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				ja,
+			);
+			mainGroup = 5B68D2CD06D31984054E467D;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = CE0959F5CE7B3A7E20206D5A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				364B603F48560B216075A080 /* LifeHeatmap */,
+				321E9EB70FCBB9514117DF2E /* HeatmapWidget */,
+				4CDA4D8956BEE8DF87519365 /* LifeHeatmapTests */,
+				795BE15854A7E2A732DBC613 /* WidgetRenderTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		131EE6E06929611143B561BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9F069A96A4DB56CD034BA1B /* Assets.xcassets in Resources */,
+				F57B62EEC6077AF407C742FB /* PrivacyInfo.xcprivacy in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A90151392F8AB196F809B4C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46DB06DF479C4D87306F23C0 /* PrivacyInfo.xcprivacy in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2DBAD446C4DBEE4EF5F3F469 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				297D6514167D8B42942FD84C /* HeatmapModelTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		918BF5DEB81F3EA9FE49EC58 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				514BD31710E5B2CDEC4507D5 /* DemoData.swift in Sources */,
+				F2AB2F8913D92B00F34AFE85 /* HeatmapGrid.swift in Sources */,
+				4E0CB4958D32205C08A4BDC4 /* HeatmapModel.swift in Sources */,
+				245E21F9FC826116914DAF6D /* HomeView.swift in Sources */,
+				C6AEB28A6E7F06F8EEE7FD6E /* LifeHeatmapApp.swift in Sources */,
+				D0A96073E964F938F71AEC8D /* Metric.swift in Sources */,
+				C002EA65E522E1A9624A7E1D /* MetricDataSource.swift in Sources */,
+				3D3F45FB2E234339833AAAD5 /* OnboardingView.swift in Sources */,
+				F398E1293F0195711F4C6232 /* SharedStore.swift in Sources */,
+				AA391FD9CFF6CB711C088097 /* ThemeColor.swift in Sources */,
+				7E05C6260C92FEDC7481684B /* ThemeSettingsView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF16856F5C1235CDDEDB63EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFC430261BB948FC3CD0568E /* DemoData.swift in Sources */,
+				07A43CFB61630EF819EA99E9 /* HeatmapGrid.swift in Sources */,
+				D2B459E3BDC35D89DA8413CF /* HeatmapModel.swift in Sources */,
+				AE275F3894E6661578894C95 /* HeatmapWidgetView.swift in Sources */,
+				977EFCD6960F64FCE1B46650 /* Metric.swift in Sources */,
+				75046B726E3CDCD0A2E0A582 /* MetricDataSource.swift in Sources */,
+				18F4B62721AF6D5E061FC61F /* SharedStore.swift in Sources */,
+				71D4DC6AA3B53F6B98E922E7 /* ThemeColor.swift in Sources */,
+				29F7DFD68699B612510D0056 /* WidgetRenderTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F19B451FFBEC16CA5AACF763 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42494321873B1E9C1A1AE8B6 /* DemoData.swift in Sources */,
+				EF117C1CFE7989A64873E0F3 /* HeatmapGrid.swift in Sources */,
+				7B737D5003185B5644B24425 /* HeatmapModel.swift in Sources */,
+				E6FADB36A6F1B1D5F227A24E /* HeatmapWidget.swift in Sources */,
+				F10448084E9E49789AB70936 /* HeatmapWidgetView.swift in Sources */,
+				F57515113294A6B2EEAB1018 /* Metric.swift in Sources */,
+				447F057FC3471819446B0A3C /* MetricDataSource.swift in Sources */,
+				F8A58B9B1C11F3A8AB1C0DB2 /* SharedStore.swift in Sources */,
+				DE98932F2DB8D803647F5ABD /* ThemeColor.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D472070536F2F84F7CB0902B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 321E9EB70FCBB9514117DF2E /* HeatmapWidget */;
+			targetProxy = 50DB473D3BAA9B2B03F83FAB /* PBXContainerItemProxy */;
+		};
+		E22645B8A96FC289A37711D1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 364B603F48560B216075A080 /* LifeHeatmap */;
+			targetProxy = 19FE18EBBBAD9B1D4FD62E84 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0A902488AFE2326B42D608EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = GBVLR8PRV8;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		2255FF647DB68142FB88B5AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = App/LifeHeatmap.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = App/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.imuzi37.LifeHeatmap;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3DAE258E210C1C63619B3645 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.imuzi37.WidgetRenderTests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6E145968F8D7CB7B2F31BD66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = GBVLR8PRV8;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		70E920DF2043325637B80B0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.imuzi37.LifeHeatmapTests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LifeHeatmap.app/LifeHeatmap";
+			};
+			name = Release;
+		};
+		74868A9569251019CCF6216F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.imuzi37.WidgetRenderTests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7C509C13CF7990514D49F851 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = Widget/HeatmapWidget.entitlements;
+				INFOPLIST_FILE = Widget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.imuzi37.LifeHeatmap.HeatmapWidget;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CF44678FB42413D05CE33034 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = Widget/HeatmapWidget.entitlements;
+				INFOPLIST_FILE = Widget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.imuzi37.LifeHeatmap.HeatmapWidget;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FA91109C6780BBC9C00FBC50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = App/LifeHeatmap.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = App/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.imuzi37.LifeHeatmap;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FAF5AC9AE785A09DB8D2A799 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.imuzi37.LifeHeatmapTests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LifeHeatmap.app/LifeHeatmap";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6769D7575A37106B7AE16376 /* Build configuration list for PBXNativeTarget "LifeHeatmap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA91109C6780BBC9C00FBC50 /* Debug */,
+				2255FF647DB68142FB88B5AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		949E12CA83E4CEF705A8454E /* Build configuration list for PBXNativeTarget "WidgetRenderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DAE258E210C1C63619B3645 /* Debug */,
+				74868A9569251019CCF6216F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		DF19FB55F2AFC93874E1D8AD /* Build configuration list for PBXProject "LifeHeatmap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A902488AFE2326B42D608EA /* Debug */,
+				6E145968F8D7CB7B2F31BD66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		E89700719EF998FE1C28C54D /* Build configuration list for PBXNativeTarget "LifeHeatmapTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAF5AC9AE785A09DB8D2A799 /* Debug */,
+				70E920DF2043325637B80B0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		F072E15CA0D65E370ABE9C97 /* Build configuration list for PBXNativeTarget "HeatmapWidget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7C509C13CF7990514D49F851 /* Debug */,
+				CF44678FB42413D05CE33034 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B662A3C21D2276B530E44004 /* Project object */;
+}
